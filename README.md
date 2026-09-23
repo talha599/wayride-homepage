@@ -2,6 +2,8 @@
 
 A responsive React + Vite homepage inspired by the structure and experience of Garibook, rebranded as **WayRide** with a mint-green and teal-blue visual system.
 
+Live Demo:https://wayride-five.vercel.app/
+
 ## Requirements covered
 
 - React.js + JavaScript
