@@ -1,0 +1,3 @@
+import { ArrowRight } from 'lucide-react';
+import { services } from '../data';
+export default function Services() { return <section className="section" id="services"><div className="container"><div className="section-head reveal"><div><p className="eyebrow">OUR SERVICES</p><h2>Every ride.<br /><span>One platform.</span></h2></div><p>From quick city trips to long-distance adventures, WayRide keeps every journey simple, transparent and comfortable.</p></div><div className="service-grid">{services.map(([title, text, Icon]) => <article className="service-card reveal" key={title}><div className="service-icon"><Icon size={23} /></div><h3>{title}</h3><p>{text}</p><a href="#app">Learn more <ArrowRight size={15} /></a></article>)}</div></div></section>; }
